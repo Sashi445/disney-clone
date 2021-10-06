@@ -59,6 +59,7 @@ const CTA = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding : 80px 40px;
   flex-direction: column;
 `;
 
@@ -66,12 +67,10 @@ const LogoOne = styled.img`
   margin-bottom: 12px;
   max-width: 600px;
   min-height: 1px;
+  margin-left : auto;
+  margin-right : auto;
   display: block;
   width: 100%;
-`;
-
-const LogoTwo = styled.div`
-  display: block;
 `;
 
 const SignUpButton = styled.button`
@@ -84,6 +83,8 @@ const SignUpButton = styled.button`
   font-size: 18px;
   letter-spacing: 1.5px;
   width: 100%;
+  margin-bottom : 2vw;
+  text-transform: uppercase;
 
   &:hover {
     background-color: #0483ee;
@@ -96,4 +97,7 @@ const Description = styled.p`
   margin: 0 0 24px;
   line-height: 1.5;
   letter-spacing: 1.5px;
+  margin-bottom : 2vw;
+  padding : 1em 2em;
 `;
+
